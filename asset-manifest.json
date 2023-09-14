@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/taimoor/static/css/main.760acee2.css",
+    "main.js": "/taimoor/static/js/main.1271ca9d.js",
+    "static/js/787.82ee4eee.chunk.js": "/taimoor/static/js/787.82ee4eee.chunk.js",
+    "index.html": "/taimoor/index.html",
+    "main.760acee2.css.map": "/taimoor/static/css/main.760acee2.css.map",
+    "main.1271ca9d.js.map": "/taimoor/static/js/main.1271ca9d.js.map",
+    "787.82ee4eee.chunk.js.map": "/taimoor/static/js/787.82ee4eee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.760acee2.css",
+    "static/js/main.1271ca9d.js"
+  ]
+}
