@@ -1,27 +1,24 @@
 import React from "react";
 import styles from "./About.module.css";
-import { AiFillProject } from 'react-icons/ai';
-import { BiMedal } from 'react-icons/bi';
-
+import { AiFillProject } from "react-icons/ai";
+import { BiMedal } from "react-icons/bi";
+import taimoorImage from "./image/taimoor.jpg";
 
 function About() {
-
   return (
-    <section id='about' className={`${styles.AboutMain}`}>
+    <section id="about" className={`${styles.AboutMain}`}>
       <div className="container pt-3">
         <p className="text-center">Get to know</p>
         <h1 className="text-center">About Me</h1>
         <br />
         <div className="row ">
           <div className="col-md-6">
-            <div className={`${styles.img}`}>
-              <img
-                src="./taimoor.jpg"
-                alt=""
-                style={{ width: "380px"}}
-                className="img-fluid rounded"
-              />
-            </div>
+            <img
+              src={taimoorImage}
+              alt=""
+              style={{ width: "380px" }}
+              className="img-fluid rounded"
+            />
           </div>
 
           {/* text part */}
@@ -42,8 +39,9 @@ function About() {
                   <div className={`${styles.cardPart}`}>
                     <AiFillProject />
                     <p className="text-center mt-3">Projects</p>
-                    <p className="text-muted text-center">10+ Completed Projects
-</p>
+                    <p className="text-muted text-center">
+                      10+ Completed Projects
+                    </p>
                   </div>
                 </div>
               </div>

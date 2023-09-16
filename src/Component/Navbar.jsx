@@ -1,52 +1,47 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import { Link, NavLink } from "react-router-dom";
-import { DiCssdeck } from 'react-icons/di';
+import { Link } from "react-router-dom";
+import { DiCssdeck } from "react-icons/di";
 
 function Navbar() {
   // Adding the states
   const [isActive, setIsActive] = useState(false);
-  const [activeNav, setActiveNav] = useState('#home'); // Initialize activeNav with a default value
 
   // Add the active class
   const toggleActiveClass = () => {
     setIsActive(!isActive);
   };
 
-  // Clean up function to remove the active class
-  const removeActive = () => {
-    setIsActive(false);
-  };
+
 
   return (
-     <nav className={`${styles.navbar}`} >
-
+    <nav className={`${styles.navbar}`}>
       {/* logo */}
       <Link to="#home" className={`${styles.logo}`}>
-      <DiCssdeck size="3rem" /> 
-       <span> Taimoor Nasir</span>
+        <DiCssdeck size="3rem" />
+        <span> Taimoor Nasir</span>
       </Link>
 
       <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
-        <li onClick={removeActive}>
-          <NavLink to="/about" onClick={() => setActiveNav('/about')} className={`${activeNav === '/about' ? 'active' : ''} ${styles.navLink}`} >
+        <li>
+          <a href="#about" className={`${styles.navLink}`}>
             About
-          </NavLink>
+          </a>
         </li>
-        <li onClick={removeActive}>
-          <NavLink to="/experience" onClick={() => setActiveNav('/experience')} className={`${activeNav === '/experience' ? 'active' : ''} ${styles.navLink}`}>
+        <li>
+          <a href="#experience" className={`${styles.navLink}`}>
             Experience
-          </NavLink>
+          </a>
         </li>
-        <li onClick={removeActive}>
-          <NavLink to="/education" onClick={() => setActiveNav('/education')} className={`${activeNav === '/education' ? 'active' : ''}  ${styles.navLink}`}>
+        <li>
+          <a href="#education" className={`${styles.navLink}`}>
             Education
-          </NavLink>
+          </a>
         </li>
-        <li onClick={removeActive}>
-          <NavLink to="/contact" onClick={() => setActiveNav('/contact')} className={`${activeNav === '/contact' ? 'active' : ''} ${styles.navLink}`}>
+        <li>
+          <a href="#contact" className={`${styles.navLink}`}>
             Contact
-          </NavLink>
+          </a>
         </li>
       </ul>
 
@@ -58,10 +53,13 @@ function Navbar() {
         <span className={`${styles.bar}`}></span>
         <span className={`${styles.bar}`}></span>
       </div>
-      <Link to="#home" className={`${styles.btn} ${isActive ? styles.active : ""}`}>
+      <Link
+        to="https://www.linkedin.com/in/taimoor-nasir-a74394255/"
+  
+        className={`${styles.btn} ${isActive ? styles.active : ""}`}
+      >
         Linkedin Profile
       </Link>
-
     </nav>
   );
 }

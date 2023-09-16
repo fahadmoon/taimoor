@@ -8,16 +8,30 @@ import Contact from "./Component/Contact";
 import Footer from "./Component/Footer";
 import { BrowserRouter as Router } from "react-router-dom";
 
+// import { BrowserRouter as Router } from "react-router-dom";
+
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Education />
-      <Contact />
-      <Footer />
+    <Navbar />
+      <div id="home">
+        <Hero />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="experience">
+        <Experience />
+      </div>
+      <div id="education">
+        <Education />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      <div id="footer">
+        <Footer />
+      </div>
     </Router>
   );
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import Styles from "./Footer.module.css";
-import { Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLinktree } from "react-icons/si";
 
@@ -14,29 +13,29 @@ function Footer() {
         </h4>
         <ul className={`pt-4 ${Styles.ul}`}>
           <li>
-            <Link to="" className={`${Styles.li}`}>
+            <a href="#home" className={`${Styles.li}`}>
               Home
-            </Link>{" "}
+            </a>
           </li>
           <li className={`${Styles.li}`}>
-            <Link to="" className={`${Styles.li}`}>
+            <a href="#about" className={`${Styles.li}`}>
               About{" "}
-            </Link>{" "}
+            </a>{" "}
           </li>
           <li className={`${Styles.li}`}>
-            <Link to="" className={`${Styles.li}`}>
+            <a href="#experience" className={`${Styles.li}`}>
               Experience
-            </Link>{" "}
+            </a>{" "}
           </li>
           <li className={`${Styles.li}`}>
-            <Link to="" className={`${Styles.li}`}>
+            <a href="#education" className={`${Styles.li}`}>
               Education
-            </Link>{" "}
+            </a>
           </li>
           <li className={`${Styles.li}`}>
-            <Link to="" className={`${Styles.li}`}>
+            <a href="#contact" className={`${Styles.li}`}>
               Contact
-            </Link>{" "}
+            </a>{" "}
           </li>
         </ul>
 

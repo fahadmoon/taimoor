@@ -39,7 +39,10 @@ function Hero() {
           </p>
         </div>
       </div>
-      <div className="d-flex justify-content-center align-item-center " style={{gap:'10px'}}>
+      <div
+        className="d-flex justify-content-center align-item-center "
+        style={{ gap: "10px" }}
+      >
         <a
           href="https://www.linkedin.com/in/taimoor-nasir-a74394255/"
           className="mb-5 pb-5"
@@ -48,15 +51,15 @@ function Hero() {
             Linkedin Profile
           </button>
         </a>
-        <a
-          href="https://www.linkedin.com/in/taimoor-nasir-a74394255/"
-          className="mb-5 pb-5"
-        >
-          <button type="button" className={`${styles.btn}`}>
-          Let's Connect
-          </button>
-        </a>
-      </div>
+          <a
+            href="#contact"
+            className="mb-5 pb-5"
+          >
+            <button type="button" className={`${styles.btn}`}>
+              Let's Connect
+            </button>
+          </a>
+        </div>
     </section>
   );
 }
