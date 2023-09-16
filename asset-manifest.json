@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/taimoor/static/css/main.760acee2.css",
-    "main.js": "/taimoor/static/js/main.1271ca9d.js",
+    "main.css": "/taimoor/static/css/main.76c40a37.css",
+    "main.js": "/taimoor/static/js/main.c4c8086c.js",
     "static/js/787.82ee4eee.chunk.js": "/taimoor/static/js/787.82ee4eee.chunk.js",
+    "static/media/taimoor.jpg": "/taimoor/static/media/taimoor.aa936df9fdb050688803.jpg",
     "index.html": "/taimoor/index.html",
-    "main.760acee2.css.map": "/taimoor/static/css/main.760acee2.css.map",
-    "main.1271ca9d.js.map": "/taimoor/static/js/main.1271ca9d.js.map",
+    "main.76c40a37.css.map": "/taimoor/static/css/main.76c40a37.css.map",
+    "main.c4c8086c.js.map": "/taimoor/static/js/main.c4c8086c.js.map",
     "787.82ee4eee.chunk.js.map": "/taimoor/static/js/787.82ee4eee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.760acee2.css",
-    "static/js/main.1271ca9d.js"
+    "static/css/main.76c40a37.css",
+    "static/js/main.c4c8086c.js"
   ]
 }
