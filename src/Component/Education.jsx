@@ -13,7 +13,7 @@ function Education() {
       <div className={`${Styles.timeline}`}>
         <div className={`${Styles.container} ${Styles.left}`}>
           <div className={`${Styles.content}`}>
-            <h3>Becholer of computer science</h3>
+            <h3>Bachelor of computer science</h3>
             <h5 className="text-muted">Riphah International University</h5>
             <small className="text-muted">Aug 2020 - Present </small>
             <br />
